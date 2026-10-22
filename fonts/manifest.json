@@ -1,0 +1,9 @@
+{
+  "note": "Files are named the way Vixl's font cache names them (family slug, weight, -italic), so the archive unpacks straight into VIXL_FONT_CACHE.",
+  "fonts": [
+    {"file": "press-start-2p-400.ttf", "family": "Press Start 2P", "weight": 400, "italic": false,
+     "license": "OFL-press-start-2p.txt", "source": "https://fonts.google.com/specimen/Press+Start+2P"},
+    {"file": "space-mono-400.ttf", "family": "Space Mono", "weight": 400, "italic": false,
+     "license": "OFL-space-mono.txt", "source": "https://fonts.google.com/specimen/Space+Mono"}
+  ]
+}
