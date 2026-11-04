@@ -6,7 +6,7 @@ feature needs it, so the Python package stays small. A pack holds no code that V
 | Pack | What it is | Used by |
 | --- | --- | --- |
 | [`emojis/`](emojis/README.md) | VIXL Line emoji artwork: about 4,000 Unicode emojis adapted from OpenMoji and 100 VIXL originals, as SVG with editable `.vixl` masters | Text that contains emojis, `vixl emoji`, emoji pack exports |
-| [`fonts/`](fonts/README.md) | Third-party fonts the builds and examples use (Press Start 2P, Space Mono), named like Vixl's font cache | VixlExamples builds |
+| [`fonts/`](fonts/README.md) | The twenty Vixl Originals (typefaces drawn with Vixl) and the third-party fonts the examples use (Press Start 2P, Space Mono), named like Vixl's font cache | `font install` and `font pair` for Vixl Original families, VixlExamples builds |
 
 ## How Vixl uses a pack
 
@@ -21,11 +21,12 @@ and `VIXL_PACK_DOWNLOAD=off`; see the module's documentation in Vixl.
 ## Adding a pack
 
 Give it a folder with a README, its licences, and the script that rebuilds it (builders may need Vixl installed).
+A pack holds data, not code Vixl runs; a builder script is for maintainers.
 Then add an entry to `PACKS` in Vixl.
 
 ## Licences
 
 The repository's [`LICENSE`](LICENSE) (MIT) covers the build scripts. Each pack carries its own data licences in its
 folder: the emoji artwork is [CC BY-SA 4.0](emojis/LICENSE.txt), Unicode data is under the
-[Unicode licence](emojis/UNICODE-LICENSE.txt), and the fonts are under the SIL Open Font License
+[Unicode licence](emojis/UNICODE-LICENSE.txt), and the fonts, the Vixl Originals included, are under the SIL Open Font License
 ([`fonts/sources/`](fonts/sources/)).

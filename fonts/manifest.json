@@ -1,9 +1,221 @@
 {
   "note": "Files are named the way Vixl's font cache names them (family slug, weight, -italic), so the archive unpacks straight into VIXL_FONT_CACHE.",
   "fonts": [
-    {"file": "press-start-2p-400.ttf", "family": "Press Start 2P", "weight": 400, "italic": false,
-     "license": "OFL-press-start-2p.txt", "source": "https://fonts.google.com/specimen/Press+Start+2P"},
-    {"file": "space-mono-400.ttf", "family": "Space Mono", "weight": 400, "italic": false,
-     "license": "OFL-space-mono.txt", "source": "https://fonts.google.com/specimen/Space+Mono"}
+    {
+      "file": "press-start-2p-400.ttf",
+      "family": "Press Start 2P",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-press-start-2p.txt",
+      "source": "https://fonts.google.com/specimen/Press+Start+2P"
+    },
+    {
+      "file": "space-mono-400.ttf",
+      "family": "Space Mono",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-space-mono.txt",
+      "source": "https://fonts.google.com/specimen/Space+Mono"
+    },
+    {
+      "file": "vixl-orbit-400.ttf",
+      "family": "Vixl Orbit",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A geometric sans of circles and straight lines with round terminals."
+    },
+    {
+      "file": "vixl-bolt-800.ttf",
+      "family": "Vixl Bolt",
+      "weight": 800,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A black geometric sans with flat cuts, for loud headlines."
+    },
+    {
+      "file": "vixl-hairline-100.ttf",
+      "family": "Vixl Hairline",
+      "weight": 100,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A wide hairline geometric sans for large, airy display type."
+    },
+    {
+      "file": "vixl-tessera-500.ttf",
+      "family": "Vixl Tessera",
+      "weight": 500,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A wide squarish sans with rounded corners and an engineered, technical feel."
+    },
+    {
+      "file": "vixl-facet-700.ttf",
+      "family": "Vixl Facet",
+      "weight": 700,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A condensed octagonal sans with chamfered corners, athletic and industrial."
+    },
+    {
+      "file": "vixl-block-800.ttf",
+      "family": "Vixl Block",
+      "weight": 800,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A heavy condensed square sans with right-angled corners."
+    },
+    {
+      "file": "vixl-mono-400.ttf",
+      "family": "Vixl Mono",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A rounded monospaced face for code, terminals and data, with a slashed zero."
+    },
+    {
+      "file": "vixl-slab-500.ttf",
+      "family": "Vixl Slab",
+      "weight": 500,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A geometric slab serif with square serifs and beaks, sturdy in text and headings."
+    },
+    {
+      "file": "vixl-bubble-900.ttf",
+      "family": "Vixl Bubble",
+      "weight": 900,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A fat, soft, rounded display face with friendly squircle bowls."
+    },
+    {
+      "file": "vixl-quill-400.ttf",
+      "family": "Vixl Quill",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A high-contrast display serif with vertical stress and hairline serifs."
+    },
+    {
+      "file": "vixl-nib-400.ttf",
+      "family": "Vixl Nib",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A slanted broad-nib italic with calligraphic thick and thin strokes."
+    },
+    {
+      "file": "vixl-marker-600.ttf",
+      "family": "Vixl Marker",
+      "weight": 600,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A hand-drawn marker face with wobbly lines and tapered stroke ends."
+    },
+    {
+      "file": "vixl-sketch-300.ttf",
+      "family": "Vixl Sketch",
+      "weight": 300,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A pencil-sketch face: each line drawn twice with a loose hand."
+    },
+    {
+      "file": "vixl-inline-800.ttf",
+      "family": "Vixl Inline",
+      "weight": 800,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A bold geometric display face cut with a single inline, in an Art Deco spirit."
+    },
+    {
+      "file": "vixl-neon-400.ttf",
+      "family": "Vixl Neon",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "Hollow rounded tubes, like bent neon signage."
+    },
+    {
+      "file": "vixl-marquee-500.ttf",
+      "family": "Vixl Marquee",
+      "weight": 500,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "Letters drawn in evenly spaced round dots, like marquee bulbs."
+    },
+    {
+      "file": "vixl-pixel-400.ttf",
+      "family": "Vixl Pixel",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A crisp 5 x 7 pixel face on a monospaced grid."
+    },
+    {
+      "file": "vixl-matrix-400.ttf",
+      "family": "Vixl Matrix",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A 5 x 7 dot-matrix face of round LED dots."
+    },
+    {
+      "file": "vixl-scanline-400.ttf",
+      "family": "Vixl Scanline",
+      "weight": 400,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A 5 x 7 pixel face drawn in horizontal scanlines, like an old CRT."
+    },
+    {
+      "file": "vixl-slice-800.ttf",
+      "family": "Vixl Slice",
+      "weight": 800,
+      "italic": false,
+      "license": "OFL-vixl-originals.txt",
+      "source": "https://github.com/jxburros/VixlPacks/tree/main/fonts/originals",
+      "original": true,
+      "description": "A bold rounded-square face sliced through by one horizontal cut."
+    }
   ]
 }
